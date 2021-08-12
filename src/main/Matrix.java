@@ -50,7 +50,7 @@ public class Matrix {
     }
 
     /**
-     * Creates a Array of the Matrix from top to bottom
+     * Creates an Array of the Matrix from top to bottom
      * @param index index in the Matrix
      * @return Array from the top to the bottom
      */

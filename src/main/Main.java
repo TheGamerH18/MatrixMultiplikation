@@ -43,7 +43,7 @@ public class Main {
      */
     private boolean multiplikation(Matrix matrix1, Matrix matrix2) {
         try {
-            int[][] resultmatrix = new int[matrix1.getMatrix_y()][matrix2.getMatrix_y()];
+            int[][] resultmatrix = new int[matrix1.getMatrix_y()][matrix2.getMatrix_x()];
             for (int y = 0; y < resultmatrix.length; y++) {
                 for (int x = 0; x < resultmatrix[y].length; x++) {
                     int[] _1 = matrix2.gety(x);
@@ -57,7 +57,7 @@ public class Main {
             }
             print(resultmatrix);
             return true;
-        } catch (IndexOutOfBoundsException e){
+        } catch (IndexOutOfBoundsException e) {
             return false;
         }
     }
